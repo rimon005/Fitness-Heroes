@@ -4,7 +4,7 @@ const Exercise = ({exercise}) => {
     console.log(exercise)
     const {picture ,name, age,time} = exercise
     return (
-        <div className='col-4 pb-5'>
+        <div className='col-lg-4 pb-5'>
             <div className="card ">
                 <img src={picture} alt="" />
                 <div className="card-body">
