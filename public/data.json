@@ -2,90 +2,100 @@
     {
       "id": "633482aff86a7f33aea4d49d",
       "picture": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "age": 25,
-      "name": "Watkins Koch",
+      "age": "25-30",
+      "name": "TREADMILL",
       "gender": "male",
       "company": "RADIANTIX",
-      "address": "240 Woodruff Avenue, Coventry, Alabama"
+      "address": "240 Woodruff Avenue, Coventry, Alabama",
+       "time"  : 30
     },
     {
       "id": "633482af1a46371a90661d3e",
       "picture": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "age": 20,
+      "age":  "25-30",
       "name": "Dena Church",
       "gender": "female",
       "company": "BITENDREX",
-      "address": "877 Quay Street, Jacksonburg, Maine"
+      "address": "877 Quay Street, Jacksonburg, Maine",
+      "time"  : 30
     },
     {
       "id": "633482af39b71fae83dd982c",
       "picture": "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "age": 23,
+      "age":  "25-30",
       "name": "Mccormick Buck",
       "gender": "male",
       "company": "ZENSOR",
-      "address": "345 Wortman Avenue, Herald, California"
+      "address": "345 Wortman Avenue, Herald, California",
+      "time"  : 30 
     },
     {
       "id": "633482af3a5240a80d8e210c",
       "picture": "https://images.pexels.com/photos/3837743/pexels-photo-3837743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "age": 24,
-      "name": "Benton Franco",
+      "age":  "25-30",
+      "name": "BENCH PRESS",
       "gender": "male",
       "company": "PYRAMIA",
-      "address": "180 Chester Court, Longbranch, Utah"
+      "address": "180 Chester Court, Longbranch, Utah",
+      "time"  : 30 
     },
     {
       "id": "633482af9510d6698751ec0a",
       "picture": "https://images.pexels.com/photos/3912956/pexels-photo-3912956.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "age": 21,
+      "age":  "25-30",
       "name": "Simon Phelps",
       "gender": "male",
       "company": "VERTIDE",
-      "address": "523 Ocean Avenue, Cressey, South Carolina"
+      "address": "523 Ocean Avenue, Cressey, South Carolina",
+      "time"  : 30 
     },
     {
       "id": "633482af0d371ba2737d7a51",
       "picture": "https://images.pexels.com/photos/4397833/pexels-photo-4397833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "age": 24,
+      "age":  "25-30",
       "name": "Sharon Myers",
       "gender": "female",
       "company": "DECRATEX",
-      "address": "591 Juliana Place, Woodlake, District Of Columbia"
+      "address": "591 Juliana Place, Woodlake, District Of Columbia",
+      "time"  : "30 Minites"
     },{
       "id": "633484ebc23288b44cfde5d3",
       "picture": "https://images.pexels.com/photos/2261476/pexels-photo-2261476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "age": 24,
-      "name": "Consuelo Graves",
+      "age":  "25-30",
+      "name": "LATERAL RAISES MACHINE",
       "gender": "female",
       "company": "FLUMBO",
-      "address": "282 Kimball Street, Breinigsville, North Dakota"
+      "address": "282 Kimball Street, Breinigsville, North Dakota",
+      "time"  : 30
     },
     {
       "id": "633484eb57d522ca6303a508",
       "picture": "https://images.pexels.com/photos/3912366/pexels-photo-3912366.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "age": 21,
+      "age":  "25-30",
       "name": "Betty Morales",
       "gender": "female",
       "company": "DELPHIDE",
-      "address": "773 Overbaugh Place, Windsor, Utah"
+      "address": "773 Overbaugh Place, Windsor, Utah","time"  : 30
+
     },
     {
       "id": "633484ebcd006294b31ac2f0",
       "picture": "https://images.pexels.com/photos/3253498/pexels-photo-3253498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "age": 20,
-      "name": "Buckner Madden",
+      "age":  "25-30",
+      "name": "CABLE ROW MACHINE",
       "gender": "male",
       "company": "FIBRODYNE",
-      "address": "843 Huntington Street, Taft, Wisconsin"
+      "address": "843 Huntington Street, Taft, Wisconsin",
+      "time"  : 30 
     },
     {
       "id": "633484eb9b67d1111d4a7d2b",
       "picture": "https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "age": 23,
+      "age":  "25-30",
       "name": "Kirsten Reynolds",
       "gender": "female",
       "company": "ECOLIGHT",
-      "address": "440 Highlawn Avenue, Boyd, New York"
+      "address": "440 Highlawn Avenue, Boyd, New York",
+      "time"  : 30
     }
   ]
