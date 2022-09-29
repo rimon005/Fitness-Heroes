@@ -6,4 +6,29 @@
     justify-content: space-around;
     border: 1px solid grey;
     padding: 5px;
+    background-color: rgb(225, 231, 237);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.break-btn button {
+    border: none;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius:25px;
+}
+.count{
+    background-color: rgb(225, 231, 237);
+    padding: 10px;
+    border-radius: 10px;
+}
+.break{
+    background-color: rgb(225, 231, 237);
+    padding: 10px;
+    border-radius: 10px;
+}
+.complite{
+    background-color: rgb(77, 77, 243);
+    border:none;
+    border-radius: 10px;
+    color: white;
 }

@@ -3,7 +3,7 @@ import './Profile.css'
 
 const Profile = () => {
     return (
-        <div>
+        <div className='p-3'>
                 <div className="card mb-4">
                     <img src="./img/pleasant-looking-serious-man-stands-profile-has-confident-expression-wears-casual-white-t-shirt.jpg" alt="" />
                     <div>
@@ -26,6 +26,24 @@ const Profile = () => {
                     </div>
                 </div>
 
+                <h5 className='mb-4'>Add A Break</h5>
+
+                <div className='break-btn mb-4'>
+                    <button className='mb-2'>10 min.</button>
+                    <button>15 min.</button>
+                    <button>20 min.</button>
+                    <button>30 min.</button>
+                </div>
+                <h5 className='mb-4'>Exercise Details</h5>
+                <div className='d-flex justify-content-between count mb-4'>
+                    <h5>Exercise time</h5>
+                    <p> Minites</p>
+                </div>
+                <div className='d-flex justify-content-between count mb-4'>
+                    <h5>Break time</h5>
+                    <p> Minites</p>
+                </div>
+                <button className='w-100 complite p-3'>Activity Completed</button>
         </div>
     );
 };
