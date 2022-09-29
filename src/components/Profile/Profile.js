@@ -18,7 +18,7 @@ const Profile = ({totalItme}) => {
     return (
         <div className='p-3'>
                 <div className="card mb-4">
-                    <img src="./img/pleasant-looking-serious-man-stands-profile-has-confident-expression-wears-casual-white-t-shirt.jpg" alt="" />
+                    <img src={Profile} alt="" />
                     <div>
                         <h5>Asif Iqbal Rimon</h5>
                         <p>Dhaka ,Bangladesh</p>
