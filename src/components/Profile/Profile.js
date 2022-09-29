@@ -16,10 +16,14 @@ const Profile = ({totalItme}) => {
           )
     }
     const [timeout , setTimeOut] = useState(0);
-    console.log(timeout)
+    // console.log(timeout)
     const rest =(event)=>{
         const value = event.target.innerText ;
-        setTimeOut(value)
+        setTimeOut(value);
+        localStorage.setItem("bookmark" , JSON.stringify([value]));
+        const prevBookmark = localStorage.getItem('bookmark');
+        const oldBookmark = JSON.parse(prevBookmark);
+        setTimeOut(oldBookmark)
     }
     return (
         <div className='p-3'>
