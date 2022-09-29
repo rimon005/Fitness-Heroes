@@ -14,9 +14,11 @@ const Profile = ({totalItme}) => {
             'success'
           )
     }
-    const [timeout , setTimeOut] = useState([]);
-    const breck =()=>{
-       
+    const [timeout , setTimeOut] = useState(0);
+    console.log(timeout)
+    const rest =(event)=>{
+        const value = event.target.innerText ;
+        setTimeOut(value)
     }
     return (
         <div className='p-3'>
@@ -45,10 +47,10 @@ const Profile = ({totalItme}) => {
                 <h5 className='mb-4'>Add A Break</h5>
 
                 <div className='break-btn mb-4'>
-                    <button className='mb-2' onClick={breck} >10 min.</button>
-                    <button onClick={breck}>15 min.</button>
-                    <button onClick={breck}>20 min.</button>
-                    <button onClick={breck}>30 min.</button>
+                      <button className='mb-2' onClick={rest} >10 min</button>
+                    <button onClick={rest}>15 min</button>
+                    <button onClick={rest}>20 min</button>
+                    <button onClick={rest}>30 min</button>
                 </div>
                 <h5 className='mb-4'>Exercise Details</h5>
                 <div className='d-flex justify-content-between count mb-4'>
@@ -57,7 +59,7 @@ const Profile = ({totalItme}) => {
                 </div>
                 <div className='d-flex justify-content-between count mb-4'>
                     <h5>Break time</h5>
-                    <p> Minites</p>
+                    <p>{timeout}</p>
                 </div>
                 <button className='w-100 complite p-3' onClick={toastify}>Activity Completed</button>
         </div>
