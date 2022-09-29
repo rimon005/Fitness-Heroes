@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Profile.css'
 import Swal from 'sweetalert2'
+import logo from './img/pleasant-looking-serious-man-stands-profile-has-confident-expression-wears-casual-white-t-shirt.jpg'
 
 const Profile = ({totalItme}) => {
     let time = 0;
@@ -22,11 +23,13 @@ const Profile = ({totalItme}) => {
     }
     return (
         <div className='p-3'>
-                <div className="card mb-4">
-                    <img src="" alt="" />
+                <div className="card mb-4 profile-info">
+                    <div>
+                        <img src={logo} alt="" />
+                    </div>
                     <div>
                         <h5>Asif Iqbal Rimon</h5>
-                        <p>Dhaka ,Bangladesh</p>
+                        <p className='info'>Dhaka ,Bangladesh</p>
                     </div>
                 </div>
                 <div className='body-info'>
@@ -51,6 +54,7 @@ const Profile = ({totalItme}) => {
                     <button onClick={rest}>15 min</button>
                     <button onClick={rest}>20 min</button>
                     <button onClick={rest}>30 min</button>
+                    <button onClick={rest}>1 hr</button>
                 </div>
                 <h5 className='mb-4'>Exercise Details</h5>
                 <div className='d-flex justify-content-between count mb-4'>
