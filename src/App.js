@@ -8,10 +8,7 @@ import Nav from './components/Nav/Nav';
 import Question from './components/Question/Question';
 
 function App() {
-  useEffect(()=>{
-    AOS.init();
-    AOS.refresh();
-  } , [])
+  
   return (
     <div>
       <Nav></Nav>
