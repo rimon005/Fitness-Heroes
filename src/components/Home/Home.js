@@ -15,7 +15,7 @@ const Home = () => {
 
     const [totalItme , setTotalTime] = useState([]);
     const addTime = (seletedItem) =>{
-        console.log(seletedItem);
+        // console.log(seletedItem);
         let newItem = [];
         const exists = totalItme.find(i => i.id === seletedItem.id);
         // console.log(exists)

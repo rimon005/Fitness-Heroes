@@ -88,15 +88,5 @@
       "company": "FIBRODYNE",
       "address": "843 Huntington Street, Taft, Wisconsin",
       "time"  : 30 
-    },
-    {
-      "id": "633484eb9b67d1111d4a7d2b",
-      "picture": "https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "age":  "25-30",
-      "name": "Kirsten Reynolds",
-      "gender": "female",
-      "company": "ECOLIGHT",
-      "address": "440 Highlawn Avenue, Boyd, New York",
-      "time"  : 30
     }
   ]

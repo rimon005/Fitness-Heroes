@@ -1,12 +1,19 @@
 import React from 'react';
-import Exercise from '../Exercise/Exercise';
 import './Profile.css'
+import Swal from 'sweetalert2'
 
 const Profile = ({totalItme}) => {
-    console.log(totalItme)
+    // console.log(totalItme)
     let time = 0;
     for(const item of totalItme){
         time = time + item.time;
+    }
+    const toastify =()=>{
+        Swal.fire(
+            'Good job!',
+            'Your activity completed',
+            'success'
+          )
     }
     return (
         <div className='p-3'>
@@ -49,7 +56,7 @@ const Profile = ({totalItme}) => {
                     <h5>Break time</h5>
                     <p> Minites</p>
                 </div>
-                <button className='w-100 complite p-3'>Activity Completed</button>
+                <button className='w-100 complite p-3' onClick={toastify}>Activity Completed</button>
         </div>
     );
 };
