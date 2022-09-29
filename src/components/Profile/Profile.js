@@ -1,7 +1,13 @@
 import React from 'react';
+import Exercise from '../Exercise/Exercise';
 import './Profile.css'
 
-const Profile = () => {
+const Profile = ({totalItme}) => {
+    console.log(totalItme)
+    let time = 0;
+    for(const item of totalItme){
+        time = time + item.time;
+    }
     return (
         <div className='p-3'>
                 <div className="card mb-4">
@@ -37,7 +43,7 @@ const Profile = () => {
                 <h5 className='mb-4'>Exercise Details</h5>
                 <div className='d-flex justify-content-between count mb-4'>
                     <h5>Exercise time</h5>
-                    <p> Minites</p>
+                    <p>{time} Minites</p>
                 </div>
                 <div className='d-flex justify-content-between count mb-4'>
                     <h5>Break time</h5>

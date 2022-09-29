@@ -12,16 +12,29 @@ const Home = () => {
         .then(res => res.json())
         .then(data => setExercises(data))
     },[]);
-    const [time , setTime] = useState([])
-    
+
+    const [totalItme , setTotalTime] = useState([]);
+    const addTime = (seletedItem) =>{
+        console.log(seletedItem);
+        let newItem = [];
+        const exists = totalItme.find(i => i.id === seletedItem.id);
+        // console.log(exists)
+        if(!exists){
+            newItem = [...totalItme , seletedItem]
+        }
+        else{
+            newItem = [...totalItme , seletedItem]
+        }
+        setTotalTime(newItem)
+    }
     return (
         <div>
             <div className='row'>
                 <div className="col-lg-9 contain">
-                ,<Exercises exercises={exercises}></Exercises>
+                <Exercises exercises={exercises} addTime={addTime}></Exercises>
                 </div>
                 <div className="col-lg-3 mt-5 ">
-                    <Profile time={time} setTime={setTime}></Profile>
+                    <Profile totalItme={totalItme}  ></Profile>
                 </div>
             </div>
         </div>

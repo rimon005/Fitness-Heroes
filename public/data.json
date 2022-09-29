@@ -17,7 +17,7 @@
       "gender": "female",
       "company": "BITENDREX",
       "address": "877 Quay Street, Jacksonburg, Maine",
-      "time"  : 30
+      "time"  : 40
     },
     {
       "id": "633482af39b71fae83dd982c",
@@ -27,7 +27,7 @@
       "gender": "male",
       "company": "ZENSOR",
       "address": "345 Wortman Avenue, Herald, California",
-      "time"  : 30 
+      "time"  : 50 
     },
     {
       "id": "633482af3a5240a80d8e210c",
@@ -57,7 +57,7 @@
       "gender": "female",
       "company": "DECRATEX",
       "address": "591 Juliana Place, Woodlake, District Of Columbia",
-      "time"  : "30 Minites"
+      "time"  : 30
     },{
       "id": "633484ebc23288b44cfde5d3",
       "picture": "https://images.pexels.com/photos/2261476/pexels-photo-2261476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -75,7 +75,8 @@
       "name": "Betty Morales",
       "gender": "female",
       "company": "DELPHIDE",
-      "address": "773 Overbaugh Place, Windsor, Utah","time"  : 30
+      "address": "773 Overbaugh Place, Windsor, Utah",
+      "time"  : 30
 
     },
     {
