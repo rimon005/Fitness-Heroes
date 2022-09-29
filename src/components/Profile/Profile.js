@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Profile.css'
 import Swal from 'sweetalert2'
 
 const Profile = ({totalItme}) => {
-    // console.log(totalItme)
     let time = 0;
     for(const item of totalItme){
         time = time + item.time;
@@ -15,10 +14,14 @@ const Profile = ({totalItme}) => {
             'success'
           )
     }
+    const [timeout , setTimeOut] = useState([]);
+    const breck =()=>{
+       
+    }
     return (
         <div className='p-3'>
                 <div className="card mb-4">
-                    <img src={Profile} alt="" />
+                    <img src="" alt="" />
                     <div>
                         <h5>Asif Iqbal Rimon</h5>
                         <p>Dhaka ,Bangladesh</p>
@@ -42,10 +45,10 @@ const Profile = ({totalItme}) => {
                 <h5 className='mb-4'>Add A Break</h5>
 
                 <div className='break-btn mb-4'>
-                    <button className='mb-2'>10 min.</button>
-                    <button>15 min.</button>
-                    <button>20 min.</button>
-                    <button>30 min.</button>
+                    <button className='mb-2' onClick={breck} >10 min.</button>
+                    <button onClick={breck}>15 min.</button>
+                    <button onClick={breck}>20 min.</button>
+                    <button onClick={breck}>30 min.</button>
                 </div>
                 <h5 className='mb-4'>Exercise Details</h5>
                 <div className='d-flex justify-content-between count mb-4'>

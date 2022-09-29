@@ -5,15 +5,17 @@ const Nav = () => {
     return (
         <div>
             <nav className='header'>
-            <div>
-            <h4 className='logo'>Fitness Heroes</h4>
-            </div>
-            <div>
-                <a href="/Order">Order</a>
-                <a href="/Order-Review">Order Review</a>
-                <a href="/Manage-Inventory">Manage Inventory</a>
-                <a href="/Login">Login</a>
-            </div>
+                <label className='logo'>Fitness Heroes</label>
+                <label for="click" className="menu-btn">
+                    <i className="fas fa-bars"></i>
+                </label>
+            
+            <ul>
+                <li><a className='active' href="/Home">Home</a></li>
+                <li><a href="/Order-Review">About</a></li>
+                <li><a href="/Manage-Inventory">Manage Inventory</a></li>
+                <li><a href="/Login">Login</a></li>
+            </ul>
         </nav>
         </div>
     );

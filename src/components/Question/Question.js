@@ -4,7 +4,7 @@ import './Question.css'
 const Question = () => {
     return (
         <div className='container'>
-            <h4 className='text-=center'>This is question part</h4>
+            <h2 className='text-=center'>This is question part</h2>
             <div>
                 <h5 className='fw-bold'>How dose react work.??</h5>
                 <p><span className='fw-bold' >ANS:</span> So you want to learn about React so you can build better user interfaces, but where do you begin?
